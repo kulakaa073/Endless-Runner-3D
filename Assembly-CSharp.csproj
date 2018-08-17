@@ -55,9 +55,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\HUDManager.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
-     <Compile Include="Assets\Scripts\MoveOrb.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\ScoreScreenManager.cs" />
  <Reference Include="UnityEditor.StandardEvents">

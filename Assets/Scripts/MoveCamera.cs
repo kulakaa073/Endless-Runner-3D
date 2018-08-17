@@ -9,8 +9,8 @@ public class MoveCamera : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
+	// Update camera speed to match player's speed
 	void Update () {
-		GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, GameManager.initVelocity * GameManager.speedModifier);
+		GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, PlayerManager.initVelocity * PlayerManager.speedModifier);
 	}
 }

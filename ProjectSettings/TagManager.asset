@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - lethal
+  - coin
+  - pill
+  - roadTile
   layers:
   - Default
   - TransparentFX
